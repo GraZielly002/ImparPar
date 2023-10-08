@@ -1,0 +1,44 @@
+/*Versão mobile*/
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+body{
+    background-color: #F3E8EE;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+}
+#email{
+    height: 4.78rem;
+}
+.menu{
+    height: 10vh;
+}
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.txt-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 15vh;
+}
+p{
+    color: #3C091D;
+    text-align: center;
+    font-family: 'Notable', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+}
+.circulo{
+    width: 10rem;
+    height: 10rem;
+    background-color:  #F9F1F1;
+    box-shadow: 4px 4px 4px 0px rgba(99, 20, 51, 0.50) inset;
+    border-radius: 50%;
+}
