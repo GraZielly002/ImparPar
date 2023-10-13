@@ -35,10 +35,57 @@ p{
     line-height: normal;
     letter-spacing: 0.125rem;
 }
+.ar1{
+    height: 23vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8vh;
+}
+.ar2{
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: -22vh;
+}
 .circulo{
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
     background-color:  #F9F1F1;
     box-shadow: 4px 4px 4px 0px rgba(99, 20, 51, 0.50) inset;
     border-radius: 50%;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+#num{
+    border: none;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    background-color:  #F9F1F1;
+    font-family: Inter;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 8px;
+    margin-left: 2vh;
+    margin-top: 2vh;}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#butao{
+    border: none;
+    cursor: pointer;
+    background-color: #F3E8EE;
+    width: 6.3rem;
+    height: 8rem;
+}
+#imgb{
+    width: 6.3rem;
+    height: 8rem;
 }
