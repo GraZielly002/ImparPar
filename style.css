@@ -192,3 +192,41 @@ input:focus{
         font-size: 2.25rem;
     }
 }
+@media screen and (min-width: 1920px) and (max-width: 1080px){
+    #linkedin {
+        height: 6.78rem;
+        margin-top: 0.2rem;
+    }
+    img {
+        width: 7rem;
+        height: 7rem;
+    }
+    p {
+        font-size: 7rem;
+        letter-spacing: 0.225rem;
+    }
+    .circulo {
+        width: 15rem;
+        height: 15rem;
+    }
+    #num {
+        height: 11rem;
+        width: 11rem;
+        font-size: 4.7rem;
+        padding-left: 8px;
+        margin-left: 3vh;
+        margin-top: 3vh;
+    }
+    #butao {
+        width: 14rem;
+        height: 14rem;
+        margin-right: 37rem;
+    }
+    #imgb {
+        width: 14rem;
+        height: 14rem;
+    }
+    #txtfter {
+        font-size: 3.25rem;
+    }
+}
