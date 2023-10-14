@@ -151,3 +151,44 @@ input:focus{
         font-size: 2.8rem;
     }
 }
+@media screen and (min-width: 1366px) and (max-width: 768px){
+    p {
+        font-size: 5rem;
+        letter-spacing: 0.225rem;
+    }
+    #linkedin {
+        height: 6.78rem;
+        margin-top: -0.2rem;
+    }
+    img {
+        width: 6rem;
+        height: 6rem;
+    }
+    .circulo {
+        width: 12rem;
+        height: 12rem;
+    }
+    .ar2 {
+        margin-top: -27vh;
+    }
+    #num {
+        height: 9rem;
+        width: 9rem;
+        font-size: 3.7rem;
+        padding-left: 9px;
+        margin-left: 3vh;
+        margin-top: 3vh;
+    }
+    #butao {
+        width: 13rem;
+        height: 13rem;
+        margin-right: 22rem;
+    }
+    #imgb {
+        width: 13rem;
+        height: 13rem;
+    }
+    #txtfter {
+        font-size: 2.25rem;
+    }
+}
