@@ -1,5 +1,6 @@
 /*Versão mobile*/
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 body{
     background-color: #F3E8EE;
 }
@@ -90,7 +91,23 @@ input:focus{
     width: 6.3rem;
     height: 8rem;
 }
-
+#fter{
+    height: 15vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+#txtfter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Inter';
+    color: #631433;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     img{
         width: 9rem;
@@ -119,7 +136,18 @@ input:focus{
         margin-top: 3vh;
     }
     .ar2{
-        margin-top: -17vh;
+        margin-top: -21.7vh;
     }
-    
+    #butao{
+        width: 13rem;
+        height: 13rem;
+        margin-right: 3vh;
+    }
+    #imgb {
+        width: 13rem;
+        height: 13rem;
+    }
+    #txtfter {
+        font-size: 2.8rem;
+    }
 }
