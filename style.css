@@ -220,7 +220,6 @@ input:focus{
     #butao {
         width: 14rem;
         height: 14rem;
-        margin-right: 37rem;
     }
     #imgb {
         width: 14rem;
@@ -228,5 +227,9 @@ input:focus{
     }
     #txtfter {
         font-size: 3.25rem;
+    }
+    .ar2{
+        margin-top: -26vh;
+        margin-right: 58vh;
     }
 }
