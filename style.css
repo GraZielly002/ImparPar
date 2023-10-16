@@ -229,7 +229,9 @@ input:focus{
         font-size: 3.25rem;
     }
     .ar2{
-        margin-top: -26vh;
-        margin-right: 58vh;
+        display: flex;
+        justify-content: center;
+        margin-top: -27vh;
+        margin-left: 25rem;
     }
 }
